@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <title>Shahrokh Hedayati</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7cOverpass+Mono:700&amp;display=swap">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#080618">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="loading">
+    <div class="js-preloader preloader"></div>
+    <header class="panel js-panel">
+        <div class="container--panel uk-container uk-height-1-1">
+            <div class="uk-flex uk-flex-middle uk-height-1-1" data-uk-grid>
+                <div class="uk-width-1-3 uk-width-1-6@m">
+                    <div class="logo logo--panel uk-visible@m"><a href="#intro" data-uk-scroll><img src="img/logo.png"
+                                alt=""></a></div>
+                    <div class="logo logo--panel uk-hidden@m"><a href="#intro" data-uk-scroll><img
+                                src="img/logo_small.png" alt=""></a></div>
+                </div>
+                <div class="uk-width-2-3 uk-visible@m">
+                    <ul class="nav nav--panel js-scrollspy-nav uk-flex uk-flex-wrap">
+                        <li><a href="#about_us">About us</a></li>
+                        <li><a href="#music">Music</a></li>
+                        <li><a href="#video">Video</a></li>
+                        <li><a href="#tour">Tour</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="uk-width-1-3 uk-width-1-6@m">
+                    <div class="panel__player"><audio class="js-audio" preload="metadata"></audio><button type="button"
+                            class="icon icon--play-pause icon--play js-panel-play"></button> <a
+                            class="mejs__horizontal-volume-slider js-panel-volume">
+                            <div class="mejs__horizontal-volume-total">
+                                <div class="mejs__horizontal-volume-current"></div>
+                            </div>
+                        </a></div>
+                </div>
+                <div class="uk-width-1-3 uk-hidden@m uk-text-right"><a href="#"
+                        data-uk-toggle="target: #offcanvas-nav">Menu</a></div>
+            </div>
+        </div>
+    </header>
+    <div id="offcanvas-nav" data-uk-offcanvas="flip: true; mode: push; overlay: true">
+        <div class="uk-offcanvas-bar"><button class="modal__close uk-offcanvas-close" type="button"
+                data-uk-close></button>
+            <ul class="nav nav--offcanvas js-scrollspy-nav js-offcanvas-nav uk-flex">
+                <li><a href="#about_us">About us</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </div>
+    <section class="intro uk-margin-large-bottom">
+        <div class="uk-container uk-container-large">
+            <div class="uk-grid-collapse" data-uk-grid>
+                <div class="intro__sidebar uk-width-1-4@m uk-visible@m uk-position-relative">
+                    <div class="logo logo--intro"><img src="img/logo.png" alt=""></div>
+                    <ul class="nav nav--intro uk-list js-scrollspy-nav">
+                        <li><a href="#about_us">About us</a></li>
+                        <li><a href="#music">Music</a></li>
+                        <li><a href="#video">Video</a></li>
+                        <li><a href="#tour">Tour</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                    <div class="social__wrapper">
+                        <div class="social social--intro">
+                            <h6 class="uk-h4 social__title c-dark--4">Social media</h6>
+                            <ul class="social__list uk-list uk-align-center">
+                                <li><a href="#" target="_black"><span class="fab fa-facebook-f"></span></a></li>
+                                <li><a href="https://www.youtube.com/@shahrokhhedayati6765" target="_black"><span class="fab fa-youtube"></span></a></li>
+                                <li><a href="https://www.instagram.com/shahrokh_hedayati" target="_black"><span class="fab fa-instagram"></span></a></li>
+                                <li><a href="#" target="_black"><span class="fab fa-twitter"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-3-4@m">
+                    <div class="slider slider--intro uk-position-relative" data-uk-slideshow="animation: push">
+                        <ul class="slider__items uk-slideshow-items">
+                            <li>
+                                <div class="slider__screen">
+                                    <div
+                                        class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center">
+                                        <img class="slider__image" src="img/slider/01.jpg" alt="" data-uk-cover>
+                                    </div>
+                                    <div class="slider__inner uk-position-top">
+                                        <div data-uk-slideshow-parallax="scale: 1,1,0.8">
+                                            <h2 class="intro__title">
+                                                <span class="js-intro-title uk-hidden">Kurdish concert</span>
+                                            </h2>
+                                            <p>
+                                                <a class="btn btn--more" href="#article-1" data-uk-toggle>
+                                                    Read more
+                                                    <span class="icon icon--dots"></span>
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="slider__screen">
+                                    <div
+                                        class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center">
+                                        <img class="slider__image" src="img/slider/02.jpg" alt="" data-uk-cover>
+                                    </div>
+                                    <div class="slider__inner uk-position-top">
+                                        <div data-uk-slideshow-parallax="scale: 1,1,0.8">
+                                            <h2 class="intro__title">
+                                                <span class="js-intro-title uk-hidden">Ardeshir Kamkar with Shahrokh Hedayati</span>
+                                            </h2>
+                                            <p>
+                                                <a class="btn btn--more">
+                                                    Read more
+                                                    <span class="icon icon--dots"></span>
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="slider__screen">
+                                    <div
+                                        class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center">
+                                        <img class="slider__image" src="img/slider/03.jpg" alt="" data-uk-cover>
+                                    </div>
+                                    <div class="slider__inner uk-position-top">
+                                        <div data-uk-slideshow-parallax="scale: 1,1,0.8">
+                                            <h2 class="intro__title">
+                                                <span class="js-intro-title uk-hidden">We are on instagram</span>
+                                            </h2>
+                                            <p>
+                                                <a class="btn btn--more" href="https://www.instagram.com/shahrokh_hedayati" target="_blank">
+                                                    Follow now
+                                                    <span class="icon icon--dots"></span>
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul><a class="slider__control" href="#" data-uk-slidenav-next
+                            data-uk-slideshow-item="next"></a>
+                        <ul class="js-slider-intro-nav uk-slideshow-nav uk-dotnav uk-flex-column uk-flex-center"></ul>
+                    </div>
+                    <div class="events events--intro uk-position-relative uk-visible@l">
+                        <div class="events__grid--intro uk-child-width-1-4 uk-grid-small" data-uk-grid>
+                            <div class="events__title__wrap">
+                                <h3 class="events__title uk-h3 c-dark--4">Upcoming events</h3>
+                            </div>
+                            <div>
+                                <a href="#tour" data-uk-scroll="offset: 80">
+                                    <div class="events__block bg-dark--1 uk-grid-collapse" data-uk-grid>
+                                        <div class="events__date uk-width-auto">
+                                            <span class="events__day">31</span>
+                                            <span class="events__month">dec</span>
+                                            <span class="events__year">2021</span>
+                                        </div>
+                                        <div class="events__location uk-width-expand">
+                                            <span class="events__place">Tehran IR</span>
+                                            <span class="events__club">Vahdat Hall</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#tour" data-uk-scroll="offset: 80">
+                                    <div class="events__block bg-dark--2 uk-grid-collapse" data-uk-grid>
+                                        <div class="events__date uk-width-auto">
+                                            <span class="events__day">05</span>
+                                            <span class="events__month">feb</span>
+                                            <span class="events__year">2022</span>
+                                        </div>
+                                        <div class="events__location uk-width-expand">
+                                            <span class="events__place">Tehran IR</span>
+                                            <span class="events__club">Espinas Palace Hotel</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#tour" data-uk-scroll="offset: 80">
+                                    <div class="events__block bg-dark--3 uk-grid-collapse" data-uk-grid>
+                                        <div class="events__date uk-width-auto">
+                                            <span class="events__day">12</span>
+                                            <span class="events__month">mar</span>
+                                            <span class="events__year">2022</span>
+                                        </div>
+                                        <div class="events__location uk-width-expand">
+                                            <span class="events__place">Erbil IQ</span>
+                                            <span class="events__club">White Hall</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about_us" class="about uk-section"
+        data-uk-scrollspy="cls:uk-animation-fade; offset-top: 80px; delay: 300">
+        <div class="uk-container uk-container-large">
+            <div class="about__grid uk-grid-collapse uk-flex" data-uk-grid>
+                <div class="uk-width-1-2@s">
+                    <div class="about__info">
+                        <h2 class="uk-h2">About us</h2>
+                        <p>
+                            Shahrokh Hedayati is a Kurdish singer who started his career in 2008.
+                            Most of his works are performed with the group of Kamkars
+                        </p>
+                        <p>
+                            More than half a century has passed since the formation of the Kamkars group.
+                            A team that has become famous after all these years in the performance of a working group,
+                            and among their honors is maintaining a standard music group with the Kamkar brand.
+                        </p>
+                    </div>
+                </div>
+                <div class="uk-width-1-2@s uk-flex-first@s"><img class="about__photo" src="img/about.jpg"
+                        data-src="img/about.jpg" alt="" data-uk-img></div>
+            </div>
+        </div>
+    </section>
+    <section class="team uk-section uk-overflow-hidden"
+        data-uk-scrollspy="cls:uk-animation-fade; offset-top: 80px; delay: 300">
+        <div class="container--min uk-container uk-position-relative">
+            <h3 class="team__title uk-h3"><span class="team__title_inner">Meet team</span></h3>
+            <div class="team__members uk-flex uk-flex-center" data-uk-grid
+                data-uk-scrollspy="cls:uk-animation-fade; target: .team__member__wrap; delay: 300">
+                <div class="team__member__wrap uk-width-1-2 uk-width-1-4@m"><a class="team__member"
+                        data-uk-toggle="target: #member_01">
+                        <div class="cover__photo uk-background-cover uk-transition-toggle"
+                            data-src="img/team/avatars/01.jpg" data-uk-img><span
+                                class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span></div><span
+                            class="team__name">Ardeshir Kamkar</span> <span class="team__vocation">Composer, Kamanche</span>
+                    </a></div>
+                <div class="team__member__wrap uk-width-1-2 uk-width-1-4@m"><a class="team__member"
+                        data-uk-toggle="target: #member_02">
+                        <div class="cover__photo uk-background-cover uk-transition-toggle"
+                            data-src="img/team/avatars/02.jpg" data-uk-img><span
+                                class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span></div><span
+                            class="team__name">Arsalan Kamkar</span> <span class="team__vocation">Oud, Violin</span>
+                    </a></div>
+                <div class="team__member__wrap uk-width-1-2 uk-width-1-4@m"><a class="team__member"
+                        data-uk-toggle="target: #member_03">
+                        <div class="cover__photo uk-background-cover uk-transition-toggle"
+                            data-src="img/team/avatars/03.jpg" data-uk-img><span
+                                class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span></div><span
+                            class="team__name">Arjang Kamkar</span> <span class="team__vocation">Tombak, Painter</span>
+                    </a></div>
+                <div class="team__member__wrap uk-width-1-2 uk-width-1-4@m"><a class="team__member"
+                        data-uk-toggle="target: #member_04">
+                        <div class="cover__photo uk-background-cover uk-transition-toggle"
+                            data-src="img/team/avatars/04.jpg" data-uk-img><span
+                                class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span></div><span
+                            class="team__name">Ardavan Kamkar</span> <span class="team__vocation">Santur</span>
+                    </a></div>
+            </div>
+        </div>
+    </section>
+    <section id="music" class="music uk-section"
+        data-uk-scrollspy="cls:uk-animation-fade; offset-top: 80px; delay: 300">
+        <div class="container--min uk-container">
+            <h2 class="uk-h2">Music</h2>
+            <div class="uk-child-width-1-1 uk-child-width-1-2@m" data-uk-grid>
+                <div class="uk-flex-last">
+                    <div class="albums albums--list"
+                        data-uk-switcher="connect: .playlist__wrap>.uk-switcher; animation: uk-animation-fade">
+                        <div class="albums__item uk-active">
+                            <div class="albums__cover">
+                                <div class="cover__photo uk-background-cover" data-src="img/albums/01.jpg" data-uk-img>
+                                    <span class="cover__link boxshadow icon icon--pause"></span>
+                                </div>
+                            </div>
+                            <div class="album__details"><span class="albums__title">Daya</span> <span
+                                    class="albums__year">2022</span> <span class="albums__buy"><span
+                                        class="albums__buy_buttons"><a href="#" target="_blank"><span
+                                                class="fab fa-apple"></span></a> <a href="#" target="_blank"><span
+                                                class="fab fa-spotify"></span></a> <a href="#" target="_blank"><span
+                                                class="fab fa-amazon"></span></a></span></span></div>
+                        </div>
+                        <div class="albums__item">
+                            <div class="albums__cover">
+                                <div class="cover__photo uk-background-cover" data-src="img/albums/02.jpg" data-uk-img>
+                                    <span class="cover__link boxshadow icon icon--pause"></span>
+                                </div>
+                            </div>
+                            <div class="album__details"><span class="albums__title">Sare</span> <span
+                                    class="albums__year">2020</span> <span class="albums__buy"><span
+                                        class="albums__buy_buttons"><a href="#" target="_blank"><span
+                                                class="fab fa-apple"></span></a> <a href="#" target="_blank"><span
+                                                class="fab fa-spotify"></span></a> <a href="#" target="_blank"><span
+                                                class="fab fa-amazon"></span></a></span></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="playlist__wrap">
+                    <div class="uk-switcher">
+                        <div class="playlist bg-dark--1 uk-active">
+                            <div class="albums albums--playlist albums__item">
+                                <div class="albums__cover"><img src="img/albums/01.jpg" data-src="img/albums/01.jpg"
+                                        alt="" data-uk-img></div>
+                                <div class="album__details"><span class="albums__title">Daya</span> <span
+                                        class="albums__year">2022</span></div>
+                                <div class="albums__buy uk-visible@s">
+                                    <h6 class="albums__buy_title uk-h6">Available on</h6>
+                                    <div class="albums__buy_buttons"><a href="#" target="_blank"><span
+                                                class="fab fa-apple"></span></a> <a href="#" target="_blank"><span
+                                                class="fab fa-spotify"></span></a> <a href="#" target="_blank"><span
+                                                class="fab fa-amazon"></span></a></div>
+                                </div>
+                            </div>
+                            <ul class="js-audio-items tracks list--striped">
+                                <li class="list__item"
+                                    data-audio="media/audio/shahrokh-hedayati-daya.mp3">
+                                    <button type="button"
+                                        class="icon icon--play-pause icon--play js-audio-play"></button> <span
+                                        class="tracks__title">Daya</span> <span
+                                        class="js-audio-time tracks__time"></span> <a
+                                        class="mejs__horizontal-volume-slider js-panel-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="playlist bg-dark--1">
+                            <div class="albums albums--playlist albums__item">
+                                <div class="albums__cover"><img src="img/albums/02.jpg" data-src="img/albums/02.jpg"
+                                        alt="" data-uk-img></div>
+                                <div class="album__details"><span class="albums__title">Sare</span> <span
+                                        class="albums__year">2020</span></div>
+                                <div class="albums__buy uk-visible@s">
+                                    <h6 class="albums__buy_title uk-h6">Available on</h6>
+                                    <div class="albums__buy_buttons"><a href="#" target="_blank"><span
+                                                class="fab fa-apple"></span></a> <a href="#" target="_blank"><span
+                                                class="fab fa-spotify"></span></a> <a href="#" target="_blank"><span
+                                                class="fab fa-amazon"></span></a></div>
+                                </div>
+                            </div>
+                            <ul class="js-audio-items tracks list--striped">
+                                <li class="list__item"
+                                    data-audio="media/audio/shahrokh-hedayati-sare.mp3">
+                                    <button type="button"
+                                        class="icon icon--play-pause icon--play js-audio-play"></button> <span
+                                        class="tracks__title">Sare</span> <span
+                                        class="js-audio-time tracks__time"></span> <a
+                                        class="mejs__horizontal-volume-slider js-panel-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><svg class="tracks__volume_mask">
+        <defs>
+            <clipPath id="volumeClipMask">
+                <path
+                    d="M7 27.605H4v-7.5h3v7.5zm20 0h-3v-25h3v25zm-10 0h-3v-16.25h3v16.25zm-5.167 0h-3V15.876h3v11.729zm10 0h-3V7.126h3v20.479z"
+                    fill="#FFF" />
+            </clipPath>
+        </defs>
+    </svg>
+    <section id="video" class="video uk-section"
+        data-uk-scrollspy="cls:uk-animation-fade; offset-top: 80px; delay: 300">
+        <div class="container--min uk-container uk-margin-large-bottom">
+            <h2 class="uk-h2">Video</h2>
+        </div>
+        <div class="js-video-slider container--special uk-container uk-container-large uk-position-relative"
+            tabindex="-1" data-uk-slider="finite: true">
+            <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-5@l">
+                <li class="video__column uk-width-2-3@s uk-width-1-2@m"><a href="#"
+                        data-video-src="media/video/shahrokh-hedayati-feat-delil-dilanar-newroz.mp4"
+                        data-video-type="video/mp4"
+                        class="js-video-target video__placeholder video__placeholder--large uk-background-cover"
+                        data-src="img/video/shahrokh-hedayati-feat-delil-dilanar-newroz.jpg" title=""
+                        data-uk-img><span class="video__title">Shahrokh Hedayati feat Delil Dilanar [Newroz]</span>
+                        <span class="video__link icon icon--play"></span></a></li>
+                <li class="video__column">
+                    <a href="#"
+                        data-video-src="media/video/shahrokh-hedayati-sangar-kamal.mp4"
+                        data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover"
+                        data-src="img/video/shahrokh-hedayati-sangar-kamal.jpg" title="" data-uk-img>
+                        <span class="video__title">Sangar Kamal</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+                    <a href="#"
+                        data-video-src="media/video/shahrokh-hedayati-nrt2-tv.mp4"
+                        data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover"
+                        data-src="img/video/shahrokh-hedayati-nrt2-tv.jpg" title="" data-uk-img>
+                        <span class="video__title">NRT 2 TV</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+                    <a href="#"
+                        data-video-src="media/video/shahrokh-hedayati-shirina-khanem.mp4"
+                        data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover"
+                        data-src="img/video/shahrokh-hedayati-shirina-khanem.jpg" title="" data-uk-img>
+                        <span class="video__title">Shirina Khanem</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+                </li>
+                <li class="video__column">
+                    <a href="#"
+                        data-video-src="media/video/shahrokh-hedayati-teyreke-germin.mp4"
+                        data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover"
+                        data-src="img/video/shahrokh-hedayati-teyreke-germin.jpg" title=""
+                        data-uk-img>
+                        <span class="video__title">Teyreke Germin</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+                    <a href="#"
+                        data-video-src="media/video/shahrokh-hedayati-abbas-kamandi.mp4"
+                        data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover"
+                        data-src="img/video/shahrokh-hedayati-abbas-kamandi.jpg" title=""
+                        data-uk-img><span class="video__title">Abbas Kamandi</span> <span
+                            class="video__link icon icon--play"></span>
+                    </a>
+                    <a href="#"
+                        data-video-src="media/video/shahrokh-hedayati-shawani-kezho-keo.mp4"
+                        data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover"
+                        data-src="img/video/shahrokh-hedayati-shawani-kezho-keo.jpg" title=""
+                        data-uk-img><span class="video__title">Shawani Kezho Keo</span> <span
+                            class="video__link icon icon--play"></span>
+                    </a>
+                </li>
+                <li class="video__column">
+                    <a href="#"
+                        data-video-src="media/video/shahrokh-hedayati-korek-tv.mp4"
+                        data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover"
+                        data-src="img/video/shahrokh-hedayati-korek-tv.jpg" title=""
+                        data-uk-img>
+                        <span class="video__title">Korek TV</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+                    <a href="#"
+                        data-video-src="media/video/shahrokh-hedayati-feat-bijan-kamkar.mp4"
+                        data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover"
+                        data-src="img/video/shahrokh-hedayati-feat-bijan-kamkar.jpg" title=""
+                        data-uk-img>
+                        <span class="video__title">Shahrokh Hedayati feat Bijan Kamkar</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+                    <a href="#"
+                        data-video-src="media/video/shahrokh-hedayati-shirin-gian.mp4"
+                        data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover"
+                        data-src="img/video/shahrokh-hedayati-shirin-gian.jpg" title=""
+                        data-uk-img>
+                        <span class="video__title">Shirin Gian [Live from Vahdat Hall]</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+                </li>
+                <li class="video__column">
+                    <a href="#"
+                        data-video-src="media/video/shahrokh-hedayati-katana.mp4"
+                        data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover"
+                        data-src="img/video/shahrokh-hedayati-katana.jpg" title=""
+                        data-uk-img>
+                        <span class="video__title">Katana [Live from Vahdat Hall]</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+                    <a href="#"
+                        data-video-src="media/video/shahrokh-hedayati-chirok.mp4"
+                        data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover"
+                        data-src="img/video/shahrokh-hedayati-chirok.jpg" title=""
+                        data-uk-img>
+                        <span class="video__title">Chirok Concert [Live from Espinas Palace Hotel]</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+                    <a href="#"
+                        data-video-src="media/video/shahrokh-hedayati-iranian-artists-forum.mp4"
+                        data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover"
+                        data-src="img/video/shahrokh-hedayati-iranian-artists-forum.jpg" title=""
+                        data-uk-img>
+                        <span class="video__title">Iranian Artists Forum</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+                </li>
+                <li class="video__column">
+                    <a href="#"
+                        data-video-src="media/video/shahrokh-hedayati-world-peace-festival.mp4"
+                        data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover"
+                        data-src="img/video/shahrokh-hedayati-world-peace-festival.jpg" title=""
+                        data-uk-img>
+                        <span class="video__title">World Peace Festival]</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+                </li>
+            </ul>
+            <a class="slider__control uk-position-center-left" href="#" data-uk-slidenav-previous
+                data-uk-slider-item="previous">
+            </a>
+            <a class="slider__control uk-position-center-right" href="#"
+                data-uk-slidenav-next data-uk-slider-item="next">
+            </a>
+        </div>
+    </section>
+    <section id="tour" class="events uk-section"
+        data-uk-scrollspy="cls:uk-animation-fade; offset-top: 80px; delay: 300">
+        <div class="container--min uk-container">
+            <h2 class="uk-h2 uk-margin-bottom">Tour</h2>
+            <div class="events__table list--striped bg-dark--1">
+                <div class="list__item">
+                    <div class="events__date uk-width-auto"><span class="events__day">24</span> <span
+                            class="events__month">oct</span> <span class="events__year">2024</span></div>
+                    <div class="events__location uk-width-expand"><span class="events__place">Unknown</span> <span
+                            class="events__club">Unknown</span></div>
+                    <div class="events__booking uk-width-1-1 uk-width-1-3@s"><a href="#" class="btn">Book tickets</a>
+                    </div>
+                </div>
+                <div class="list__item">
+                    <div class="events__date uk-width-auto"><span class="events__day">12</span> <span
+                            class="events__month">mar</span> <span class="events__year">2022</span></div>
+                    <div class="events__location uk-width-expand"><span class="events__place">Erbil IQ</span> <span
+                            class="events__club">White Hall</span></div>
+                    <div class="events__booking uk-width-1-1 uk-width-1-3@s"><span class="btn btn--disabled">Sold
+                            Out</span></div>
+                </div>
+                <div class="list__item">
+                    <div class="events__date uk-width-auto"><span class="events__day">05</span> <span
+                            class="events__month">feb</span> <span class="events__year">2022</span></div>
+                    <div class="events__location uk-width-expand"><span class="events__place">Tehran IR</span> <span
+                            class="events__club">Espinas Palace Hotel</span></div>
+                    <div class="events__booking uk-width-1-1 uk-width-1-3@s"><span class="btn btn--disabled">Sold
+                            Out</span></div>
+                </div>
+                <div class="list__item">
+                    <div class="events__date uk-width-auto"><span class="events__day">31</span> <span
+                            class="events__month">dec</span> <span class="events__year">2021</span></div>
+                    <div class="events__location uk-width-expand"><span class="events__place">Tehran IR</span> <span
+                            class="events__club">Vahdat Hall</span></div>
+                    <div class="events__booking uk-width-1-1 uk-width-1-3@s"><span class="btn btn--disabled">Sold
+                            out</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="news" class="news uk-section" data-uk-scrollspy="cls:uk-animation-fade; offset-top: 80px; delay: 300">
+        <div class="container--min uk-container uk-margin-large-bottom">
+            <h2 class="uk-h2">News</h2>
+        </div>
+        <div class="container--special uk-container uk-container-large">
+            <div class="slider slider--news uk-position-relative" tabindex="-1" data-uk-slider="finite: true">
+                <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-child-width-1-5@xl uk-grid"
+                    data-uk-grid>
+                    <li>
+                        <div class="uk-card">
+                            <div class="uk-card-media-top"><a href="#" data-uk-toggle="target: #article-0"
+                                    class="cover__photo uk-background-cover uk-transition-toggle"
+                                    data-src="img/news/01.jpg" data-uk-img><span
+                                        class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span></a>
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="news__title">Ardeshir Kamkar & Shahrokh Hedayati</h3>
+                                <div class="uk-flex uk-flex-middle uk-flex-between">
+                                    <div class="events__date uk-width-auto"><span class="events__day">20</span> <span
+                                            class="events__month">sep</span> <span class="events__year">2021</span>
+                                    </div><a href="#" data-uk-toggle="target: #article-0"
+                                        class="news__more btn btn--more">Read more<span
+                                            class="icon icon--dots"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <div class="uk-card-media-top"><a href="#" data-uk-toggle="target: #article-1"
+                                    class="cover__photo uk-background-cover uk-transition-toggle"
+                                    data-src="img/news/02.jpg" data-uk-img><span
+                                        class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span></a>
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="news__title">Kurdish Music</h3>
+                                <div class="uk-flex uk-flex-middle uk-flex-between">
+                                    <div class="events__date uk-width-auto"><span class="events__day">09</span> <span
+                                            class="events__month">sep</span> <span class="events__year">2021</span>
+                                    </div><a href="#" data-uk-toggle="target: #article-1"
+                                        class="news__more btn btn--more">Read more<span
+                                            class="icon icon--dots"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <div class="uk-card-media-top"><a href="#" data-uk-toggle="target: #article-2"
+                                    class="cover__photo uk-background-cover uk-transition-toggle"
+                                    data-src="img/news/03.jpg" data-uk-img><span
+                                        class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span></a>
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="news__title">Sanandaj Day</h3>
+                                <div class="uk-flex uk-flex-middle uk-flex-between">
+                                    <div class="events__date uk-width-auto"><span class="events__day">26</span> <span
+                                            class="events__month">apr</span> <span class="events__year">2021</span>
+                                    </div><a href="#" data-uk-toggle="target: #article-2"
+                                        class="news__more btn btn--more">Read more<span
+                                            class="icon icon--dots"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card">
+                            <div class="uk-card-media-top"><a href="#" data-uk-toggle="target: #article-3"
+                                    class="cover__photo uk-background-cover uk-transition-toggle"
+                                    data-src="img/news/04.jpg" data-uk-img><span
+                                        class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span></a>
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="news__title">Kamanche</h3>
+                                <div class="uk-flex uk-flex-middle uk-flex-between">
+                                    <div class="events__date uk-width-auto"><span class="events__day">12</span> <span
+                                            class="events__month">jun</span> <span class="events__year">2021</span>
+                                    </div><a href="#" data-uk-toggle="target: #article-3"
+                                        class="news__more btn btn--more">Read more<span
+                                            class="icon icon--dots"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <a class="slider__control uk-position-center-left" href="#" data-uk-slidenav-previous
+                    data-uk-slider-item="previous"></a>
+                <a class="slider__control uk-position-center-right" href="#"
+                    data-uk-slidenav-next data-uk-slider-item="next"></a>
+            </div>
+        </div>
+    </section>
+    <section id="contacts" class="contacts uk-section"
+        data-uk-scrollspy="cls:uk-animation-fade; offset-top: 80px; delay: 300">
+        <div class="container--min uk-container">
+            <h2 class="uk-h2">Contacts</h2>
+            <div data-uk-grid>
+                <div class="uk-width-1-3@m">
+                    <h3 class="uk-h3">Organization of concerts</h3>
+                    <div data-uk-grid>
+                        <p class="contacts__info uk-width-1-1 uk-width-1-2@s uk-width-1-1@m"><strong
+                                class="contacts__subtitle">Call us:</strong><br><a href="tel:+999999999999">(9999)
+                                999-999-99</a><br><a href="tel:+888888888888">(8888) 888-888-88</a></p>
+                        <p class="contacts__info uk-width-1-1 uk-width-1-2@s uk-width-1-1@m"><strong
+                                class="contacts__subtitle">E-mail:</strong><br><a
+                                href="mailto:info@shahrokhhedayati.com">info@shahrokhhedayati.com</a><br><a
+                                href="mailto:support@shahrokhhedayati.com">support@shahrokhhedayati.com</a></p>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@m">
+                    <div class="uk-card bg-dark--1">
+                        <div class="contacts__form uk-card-body">
+                            <h3 class="uk-h3">Get in touch</h3>
+                            <form class="js-form" data-uk-grid>
+                                <div class="uk-width-1-2@s"><input name="name" class="uk-input" type="text"
+                                        placeholder="Name"></div>
+                                <div class="uk-width-1-2@s"><input name="email" class="uk-input" type="email"
+                                        placeholder="E-mail*" data-require="true"></div>
+                                <div class="uk-width-1-1"><textarea name="message" class="uk-textarea" rows="5"
+                                        placeholder="Message*" data-require="true"></textarea></div>
+                                <div class="uk-width-1-1 uk-text-center">
+                                    <p class="form__respond js-respond"></p><input class="btn" type="submit"
+                                        value="Send">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer bg-dark--1 uk-section uk-section-small">
+        <div class="container--min uk-container">
+            <div class="uk-flex uk-flex-between uk-child-width-auto" data-uk-grid>
+                <ul class="nav nav--footer js-scrollspy-nav uk-flex uk-flex-wrap">
+                    <li><a href="#about_us">About us</a></li>
+                    <li><a href="#music">Music</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#tour">Tour</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+                <ul class="nav nav--footer uk-flex uk-flex-wrap">
+                    <li><a href="#" data-uk-toggle="target: #modal-text">Terms of use</a></li>
+                    <li><a href="#" data-uk-toggle="target: #modal-text">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="social social--footer">
+                <ul class="social__list uk-list uk-align-center">
+                    <li><a href="#" target="_black"><span class="fab fa-facebook-f"></span></a></li>
+                    <li><a href="https://www.youtube.com/@shahrokhhedayati6765" target="_black"><span class="fab fa-youtube"></span></a></li>
+                    <li><a href="https://www.instagram.com/shahrokh_hedayati" target="_black"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="#" target="_black"><span class="fab fa-twitter"></span></a></li>
+                </ul>
+            </div>
+            <p class="footer__copyrights">&copy;2024 Shahrokh Hedayati. All rights reserved.</p>
+        </div><a href="#" class="footer__totop" data-uk-totop data-uk-scroll></a>
+    </footer>
+    <div id="member_01" data-uk-modal>
+        <div class="modal modal__profile uk-modal-dialog uk-margin-auto-vertical">
+            <div class="modal__cover uk-cover-container">
+                <img src="img/team/covers/01.jpg" data-src="img/team/covers/01.jpg" alt="" data-uk-cover>
+            </div>
+            <div class="modal__content">
+                <div class="modal__avatar boxshadow uk-background-cover" data-src="img/team/avatars/01.jpg"
+                    data-uk-img></div>
+                <h3 class="modal__profile__title uk-modal-title uk-text-center">Ardeshir Kamkar</h3>
+                <div class="modal__profile__subtitle uk-text-center">Composer, Kamanche</div>
+                <p class="uk-text-left">
+                    Ardeshir Kamkar (born on November 19, 1962 in Sanandaj) is a composer.
+                    He is a member of the Kamkars group.
+                    Since childhood, he learned the violin from his father. Some time later,
+                    he became a member of the Sanandaj Culture and Art Orchestra as a violinist.
+                </p>
+                <p class="uk-text-left">
+                    Among her characteristics in playing the kamanche, we can mention the positions of 7 and above and the performance of harmonic sounds,
+                    these techniques are specific to the violin instrument and are almost hardly applicable to the kamanche instrument.
+                </p>
+                <div class="social social--modal">
+                    <ul class="social__list uk-list uk-align-center">
+                        <li><a href="#" target="_black"><span class="fab fa-facebook-f"></span></a></li>
+                        <li><a href="#" target="_black"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="#" target="_black"><span class="fab fa-twitter"></span></a></li>
+                    </ul>
+                </div>
+            </div><button class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+        </div>
+    </div>
+    <div id="member_02" data-uk-modal>
+        <div class="modal modal__profile uk-modal-dialog uk-margin-auto-vertical">
+            <div class="modal__cover uk-cover-container"><img src="img/team/covers/02.jpg"
+                    data-src="img/team/covers/02.jpg" alt="" data-uk-cover></div>
+            <div class="modal__content">
+                <div class="modal__avatar boxshadow uk-background-cover"
+                    data-src="img/team/avatars/02.jpg" data-uk-img></div>
+                <h3 class="modal__profile__title uk-modal-title uk-text-center">Arsalan Kamkar</h3>
+                <div class="modal__profile__subtitle uk-text-center">Oud, Violin</div>
+                <p class="uk-text-left">
+                    Arslan Kamkar was born on December 23, 1960 in Sanandaj. He learned the basics of music from his father,
+                    Hasan Kamkar. When he was young, he used to perform concerts in Sanandaj with various groups supervised by his father.
+                </p>
+                <p class="uk-text-left">
+                    After some time, Arslan Kamkar traveled to Tehran and continued to study music at Tehran University's Faculty of Fine Arts.
+                    After completing music lessons, he started working with Tehran Symphony Orchestra as a violinist.
+                    He is currently one of the members of this group and the master of the Tehran Symphony Orchestra.
+                    He is also the master of the Kurdistan Philharmonic Orchestra. Maryam Ebrahimpour, Sina Jahanabadi, Rozbeh Bakhtiari and Golriz Zarbakhsh mentioned
+                </p>
+                <div class="social social--modal">
+                    <ul class="social__list uk-list uk-align-center">
+                        <li><a href="#" target="_black"><span class="fab fa-facebook-f"></span></a></li>
+                        <li><a href="#" target="_black"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="#" target="_black"><span class="fab fa-twitter"></span></a></li>
+                    </ul>
+                </div>
+            </div><button class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+        </div>
+    </div>
+    <div id="member_03" data-uk-modal>
+        <div class="modal modal__profile uk-modal-dialog uk-margin-auto-vertical">
+            <div class="modal__cover uk-cover-container"><img src="img/team/covers/03.jpg"
+                    data-src="img/team/covers/03.jpg" alt="" data-uk-cover></div>
+            <div class="modal__content">
+                <div class="modal__avatar boxshadow uk-background-cover" data-src="img/team/avatars/03.jpg"
+                    data-uk-img></div>
+                <h3 class="modal__profile__title uk-modal-title uk-text-center">Arjang Kamkar</h3>
+                <div class="modal__profile__subtitle uk-text-center">Tombak, Painter</div>
+                <p class="uk-text-left">
+                    Arjang Kamkar (born on July 24, 1956 in Sanandaj) is a Tembek musician, painter and a member of the Kamkar group.
+                    Since his childhood, he was interested in the art of painting and playing Tombak.
+                    At the time of the formation of the Kamkars group, Arjang Kamkar accompanied the Sanandaj culture and art orchestra as a Tombak musician.
+                </p>
+                <p class="uk-text-left">
+                    In addition to educational activities, he performed many concerts with Shida and Aref groups. Now he is teaching tambak playing at Kamkarha school.
+                    On February 6, 2018, in the celebration of the 19th anniversary of the establishment of the Iran Music House,
+                    "Arjang Kamkar" was honored with a plaque and a statue of the Music House.
+                </p>
+                <div class="social social--modal">
+                    <ul class="social__list uk-list uk-align-center">
+                        <li><a href="#" target="_black"><span class="fab fa-facebook-f"></span></a></li>
+                        <li><a href="#" target="_black"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="#" target="_black"><span class="fab fa-twitter"></span></a></li>
+                    </ul>
+                </div>
+            </div><button class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+        </div>
+    </div>
+    <div id="member_04" data-uk-modal>
+        <div class="modal modal__profile uk-modal-dialog uk-margin-auto-vertical">
+            <div class="modal__cover uk-cover-container"><img src="img/team/covers/04.jpg"
+                    data-src="img/team/covers/04.jpg" alt="" data-uk-cover></div>
+            <div class="modal__content">
+                <div class="modal__avatar boxshadow uk-background-cover" data-src="img/team/avatars/04.jpg"
+                    data-uk-img></div>
+                <h3 class="modal__profile__title uk-modal-title uk-text-center">Ardavan Kamkar</h3>
+                <div class="modal__profile__subtitle uk-text-center">Santur</div>
+                <p class="uk-text-left">
+                    Arslan Kamkar was born on December 23, 1960 in Sanandaj. He learned the basics of music from his father, Hasan Kamkar.
+                    When he was young, he used to perform concerts in Sanandaj with various groups supervised by his father.
+                </p>
+                <p class="uk-text-left">
+                    After some time, Arslan Kamkar traveled to Tehran and continued to study music at Tehran University's Faculty of Fine Arts.
+                    After completing music lessons, he started working with Tehran Symphony Orchestra as a violinist.
+                    He is currently one of the members of this group and the master of Tehran Symphony Orchestra. He is also the master of the Kurdistan Philharmonic Orchestra.
+                    In 2013, he was awarded a first degree in art. Among his students, we can mention Maryam Ebrahimpour, Sina Jahanabadi, Rozbeh Bakhtiari and Golriz Zarbakhsh.
+                </p>
+                <div class="social social--modal">
+                    <ul class="social__list uk-list uk-align-center">
+                        <li><a href="#" target="_black"><span class="fab fa-facebook-f"></span></a></li>
+                        <li><a href="#" target="_black"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="#" target="_black"><span class="fab fa-twitter"></span></a></li>
+                    </ul>
+                </div>
+            </div><button class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+        </div>
+    </div>
+    <div id="modal-video" data-uk-modal>
+        <div class="modal__video uk-modal-dialog uk-margin-auto-vertical"><button
+                class="modal__close uk-modal-close-outside" type="button" data-uk-close></button></div>
+    </div>
+    <div id="article-0" class="js-modal-article" data-uk-modal>
+        <div class="modal modal__article uk-modal-dialog uk-margin-auto-vertical"><button
+                class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+            <div class="modal__article_grid uk-grid-collapse uk-child-width-1-2@m uk-flex-middle" data-uk-grid>
+                <div class="cover__photo--1-2 uk-background-cover uk-visible@m" data-src="img/news/01.jpg"
+                    data-uk-img></div>
+                <div class="modal__article_text">
+                    <div class="modal__overflow">
+                        <h2 class="uk-h3">Ardeshir Kamkar & Shahrokh Hedayati</h2>
+                        <p>
+                            The Kamkars group will perform pieces of Kurdish music together with Shahrokh Hedayati in the Vahdat Hall,
+                            with the presence of musicians such as Faraz Marofi, Abbas Jafari, and Zaniar Pandar, under the supervision of Ardeshir Kamkar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="article-1" class="js-modal-article" data-uk-modal>
+        <div class="modal modal__article uk-modal-dialog uk-margin-auto-vertical"><button
+                class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+            <div class="modal__article_grid uk-grid-collapse uk-child-width-1-2@m uk-flex-middle" data-uk-grid>
+                <div class="cover__photo--1-2 uk-background-cover uk-visible@m" data-src="img/news/02.jpg"
+                    data-uk-img></div>
+                <div class="modal__article_text">
+                    <div class="modal__overflow">
+                        <h2 class="uk-h3">Kurdish Music</h2>
+                        <p>
+                            Kurdish music refers to music performed in the Kurdish language, as well as Zazaki and Gurani.
+                        </p>
+                        <p>
+                            Due to the importance of the Kurdish people,
+                            this music has many fans in the Kurdish regions, the Middle East and West Asia.
+                        </p>
+                        <p>
+                            Kurdish music includes songs, and music without words and songs that are sung
+                            in Kurdish and Zaza-Gorani languages ​​and are very attractive among different ethnic groups and non-Kurds.
+                        </p>
+                        <p>
+                            This type of music is made of two parts, classical and modern,
+                            each of which has its own types and branches.
+                            The origin of Kurdish songs can be considered legends,
+                            brave stories and love stories, Shahnameh and poems with content.
+                        </p>
+                        <p>
+                            Kurdish music among the people of Kurdistan has an inseparable link with the daily life of the people of that land.
+                        </p>
+                        <p>
+                            Another type of Kurdish folk music is related to anecdotes and stories; Narrative songs can be divided into two parts: heroic and endearing.
+                        </p>
+                        <p>
+                            Kurdish music is one of the few Iranian musics in which improvisation and improvisation are common.
+                            Improvisation is one of the most heavy styles in Kurdish music,
+                            and it is necessary for the artist to have enough skill to improvise in other styles as well.
+                        </p>
+                        <p>
+                            Improvising artists must work in this field for many years and can perform improvisation only with
+                            complete familiarity with other Kurdish music styles, and in addition to knowing the weight and rhythm of music,
+                            they also have the talent of singing internally, so that they can perform in this Get the necessary style of success.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="article-2" class="js-modal-article" data-uk-modal>
+        <div class="modal modal__article uk-modal-dialog uk-margin-auto-vertical"><button
+                class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+            <div class="modal__article_grid uk-grid-collapse uk-child-width-1-2@m uk-flex-middle" data-uk-grid>
+                <div class="cover__photo--1-2 uk-background-cover uk-visible@m" data-src="img/news/03.jpg"
+                    data-uk-img></div>
+                <div class="modal__article_text">
+                    <div class="modal__overflow">
+                        <h2 class="uk-h3">Sanandaj Day</h2>
+                        <p>
+                            Sanandaj day is equal to 26 April every year. This day is the anniversary of Shah Safi's order
+                            to build the city of Sanandaj by the ruler of Kurdistan Suleiman Khan Ardalan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="article-3" class="js-modal-article" data-uk-modal>
+        <div class="modal modal__article uk-modal-dialog uk-margin-auto-vertical"><button
+                class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+            <div class="modal__article_grid uk-grid-collapse uk-child-width-1-2@m uk-flex-middle" data-uk-grid>
+                <div class="cover__photo--1-2 uk-background-cover uk-visible@m" data-src="img/news/04.jpg"
+                    data-uk-img></div>
+                <div class="modal__article_text">
+                    <div class="modal__overflow">
+                        <h2 class="uk-h3">Kamanche</h2>
+                        <p>
+                            Kamanche is one of Iranian musical instruments. In addition to the belly,
+                            handle and head at the lower end of the instrument, this instrument has a base that is placed on the ground or on the player's feet.
+                            There is a type of kamanche known as Lori kamanche that has an open back and the Lori people call it "Tal".
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-text" data-uk-modal>
+        <div class="modal modal__article uk-modal-dialog uk-width-auto uk-margin-auto-vertical"><button
+                class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+            <div class="uk-modal-body uk-padding">
+                <div class="modal__overflow js-scrollbar">
+                    <h2 class="uk-modal-title">Privacy Policy</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/libs.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
